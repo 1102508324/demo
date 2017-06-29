@@ -1,0 +1,19 @@
+// JavaScript Document
+$(function(){
+	$('.posi').hover(function(){
+	$(this).find('.zzc').stop(true,true).slideToggle();
+	/*$(this).find('img').animate({'opacity':'0.4'});*/
+	},function(){
+			$(this).find('.zzc').stop(true,true).slideToggle();
+			$(this).find('img').animate({'opacity':'1'});
+			})
+		})
+$(function(){
+	$('.posi2').hover(function(){
+	$(this).find('.zzc2').stop(true,true).slideToggle();
+	/*$(this).find('img').animate({'opacity':'0.4'});*/
+	},function(){
+			$(this).find('.zzc2').stop(true,true).slideToggle();
+			$(this).find('img').animate({'opacity':'1'});
+			})
+		})

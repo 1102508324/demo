@@ -1,0 +1,395 @@
+<!doctype html>
+<html>
+<head>
+<meta charset="utf-8">
+<title>注册页面</title>
+<link href="styles/reset.css" rel="stylesheet" type="text/css">
+<link href="styles/main.css" rel="stylesheet" type="text/css">
+<link href="styles/box.css" rel="stylesheet" type="text/css">
+<link href="styles/basic.css" rel="stylesheet" type="text/css">
+<link href="styles/register.css" rel="stylesheet" type="text/css">
+<script type="text/javascript" src="scripts/jquery.js"></script>
+<script type="text/javascript" src="scripts/jquery.validate.js"></script>
+<script type="text/javascript" src="scripts/jquery.metadata.js"></script>
+<script type="text/javascript" src="scripts/jquery.validate.messages_cn.js"></script>
+<script type="text/javascript" src="scripts/jquery.simplemodal.js"></script>
+<script type="text/javascript" src="scripts/simple-modal.js"></script>
+<script type="text/javascript" src="scripts/aside.js"></script>
+<script type="text/javascript" src="scripts/validation.js"></script>
+<script type="text/javascript" src="scripts/maodian.js"></script>
+<script type="text/javascript" src="scripts/slideToggle.js"></script>
+<script type="text/javascript" src="scripts/change.js"></script>
+<script type="text/javascript" src="scripts/music-imgroll.js"></script>
+<script type="text/javascript" src="scripts/enter.js"></script>
+<script type="text/javascript" src="scripts/goTop.js"></script>
+<style>
+
+</style>
+</head>
+
+<body>
+<a name="maodian"></a>
+<div id="header">
+<div class="contWidth">
+    <a href="index.html" class="logo"><img src="images/芒果tv.png" alt="芒果TV"></a>
+    <a href="#" class="klns"><img src="images/20170609200815224.png" alt="快乐男声活动"></a>
+    <div class="search"><input type="text" id="inputSearch" class="" value="快乐大本营"><input type="submit" value=""></div>
+    <ul id="self-message">
+    <li id="notice"><a href="#"><img src="images/049.png" alt="关注">&nbsp;关注</a></li>
+    <li id="message"><a href="#"><img src="images/QQ截图20170617202709.png" alt="消息">&nbsp;消息</a></li>
+    <li id="history"><a href="#"><img src="images/QQ截图20170617235729.png" alt="播放记录">&nbsp;播放记录</a></li>
+    <li id="loading"><a href="#"><img src="images/QQ截图20170617202721.png" alt="下载">&nbsp;下载</a></li>
+    </ul>
+    <div class="right-self">|</div>
+    <a href="javascript:void(0);" class="user">登录</a>
+    <a href="javascript:void(0);" class="register">注册</a>
+  </div>
+<!--导航栏-->
+ <div class="mainNav" id="nav">
+  <ul>
+  <li><a href="index.html" class="selected">首页</a></li>
+  <li><a href="detail.html">综艺</a></li>
+  <li><a href="detail.html">电视剧</a></li>
+  <li><a href="detail.html">电影</a></li>
+  <li><a href="detail.html">动漫</a></li>
+  <li><a href="detail.html">少儿</a></li>
+  <li><a href="detail.html">新闻</a></li>
+  <li><a href="detail.html">音乐</a></li>
+  <li><a href="detail.html">爱豆</a></li>
+  <li><a href="detail.html">直播</a></li>
+  <li><a href="detail.html">逗爸</a></li>
+  <li><a href="detail.html">乐活</a></li>
+  <li><a href="#">教育</a></li>
+  <li><a href="#">纪录片</a></li>
+  <li><a href="detail.html">趣玩</a></li>
+  <li><a href="detail.html">玩游戏</a></li>
+  </ul>
+  <div class="c-header-right"><img src="images/QQ截图20170617202732.png" alt="vip会员">VIP会员</div>
+  </div>
+</div>
+<div id="content">
+<div id="goTop"><a href="#maodian" class="tt">返回顶部</a><a href="#" class="anima">|分享到</a></div>
+<div id="mgtv-1">
+<!--侧边栏start-->
+<div class="asi">
+<ul class="menu">
+    <li class="level1"><a href="#mao1">用户注册</a>
+      <ul class="level2">
+        <li><a href="#none">个人信息</a></li>
+        <li><a href="#none">消息记录</a></li>
+        <li><a href="#none">下载记录</a></li>
+        <li><a href="#none">个人中心</a></li>
+      </ul>
+    </li>
+    <li class="level1"><a href="#mao2">视频管理</a>
+      <ul class="level2">
+        <li><a href="#none">电影</a></li>
+        <li><a href="#none">电视剧</a></li>
+        <li><a href="#none">热门综艺</a></li>
+        <li><a href="#none">芒果自制</a></li>
+      </ul>
+    </li>
+    <li class="level1"><a href="#mao3">VIP会员</a>
+      <ul class="level2">
+        <li><a href="#none">限时大片</a></li>
+        <li><a href="#none">会员特权</a></li>
+        <li><a href="#none">会员等级</a></li>
+        <li><a href="#none">会员信息</a></li>
+      </ul>
+    </li>
+    
+        <li class="level1"><a href="#mao4">个人中心</a>
+      <ul class="level2">
+        <li><a href="#none">播单</a></li>
+        <li><a href="#none">历史记录</a></li>
+        <li><a href="#none">粉丝福利</a></li>
+        <li><a href="#none">用户展示</a></li>
+      </ul>
+    </li>
+    <li class="level1"><a href="#mao5">离线中心</a>
+      <ul class="level2">
+        <li><a href="#none">离线进度</a></li>
+        <li><a href="#none">离线设置</a></li>
+        <li><a href="#none">转码器</a></li>
+        <li><a href="#none">可播放</a></li>
+      </ul>
+    </li>
+    <li class="level1"><a href="#mao6">观看记录</a>
+      <ul class="level2">
+        <li><a href="#none">剧集回顾</a></li>
+        <li><a href="#none">观看进度</a></li>
+        <li><a href="#none">记录中心</a></li>
+        <li><a href="#none">关于我们</a></li>
+      </ul>
+    </li>
+  </ul>
+</div>
+<!--right开始-->
+<div class="right"></div>
+<div class="fff">
+<div class="regi coo">
+   <form id="commentForm" action="#" method="get">
+    <p>
+      <label for="cusername">用户名:</label>
+      <em>*</em>
+      <input id="cusername" name="username" >
+    </p>
+    <p>
+      <label for="password">密码:</label>
+      <em>*</em>
+      <input id="password" name="password" >
+    </p>
+     <p>
+      <label for="password1">性别:</label>
+      <em>*</em>
+      <input id="password1" name="password1" >
+    </p>
+    <p>
+      <label for="cemail">E-mail:</label>
+      <em>*</em>
+      <input id="cemail" name="email" >
+    </p>
+    <p>
+      <label for="tel">手机号:</label>
+      <em>*</em>
+      <input id="tel" name="tel"  value="">
+    </p>
+    <p>
+      <input type="submit" class="submit" value="提交">
+    </p>
+  </form>
+</div>
+<div class="regi">
+<div class="le"><a href="#" class="fir"><div class="posi"><img src="images/20170313095644648-new.jpg_220x310.jpg" alt="图片"><div class="zzc"><span>《喜欢你》敬请期待!</span></div></div>
+<div>喜欢你</div>
+<div class="til-first-alt-gray">金城武周冬雨虐恋升级</div></a>
+</div>
+<!---->
+<div class="le"><a href="#none" class="fir"><div class="posi"><img src="images/20170313095644648-new.jpg_220x310.jpg" alt="图片"><div class="zzc"><span>《喜欢你》敬请期待!</span></div></div>
+<div>喜欢你</div>
+<div class="til-first-alt-gray">金城武周冬雨虐恋升级</div></a>
+</div>
+<!---->
+<div class="le"><a href="#" class="fir"><div class="posi"><img src="images/20170313095644648-new.jpg_220x310.jpg" alt="图片"><div class="zzc"><span>《喜欢你》敬请期待!</span></div></div>
+<div>喜欢你</div>
+<div class="til-first-alt-gray">金城武周冬雨虐恋升级</div></a>
+</div>
+<!---->
+<div class="hh"><h3><img src="images/QQ截图20170618092056.png">换一换</h3></div>
+<!---->
+<div class="le"><a href="#none" class="fir"><div class="posi2"><img src="images/20170615095759117.jpg_220x125.jpg" class="che1"><img src="images/20170616200714876.jpg_220x125.jpg" class="che1"><img src="images/20170615193241327.jpg_220x125.jpg" class="che1" alt="图片"><div class="zzc2"><span>更多精彩,敬请期待!</span></div></div>
+<div>快乐大本营的秘密花园</div>
+<div class="til-first-alt-gray">唐艺昕变身女汉子壁咚张若昀</div></a>
+</div>
+<!---->
+<div class="le"><a href="#none" class="fir"><div class="posi2"><img src="images/20170615095759117.jpg_220x125.jpg" class="che2"><img src="images/20170616200714876.jpg_220x125.jpg" class="che2"><img src="images/20170615193241327.jpg_220x125.jpg" class="che2" alt="图片"><div class="zzc2"><span>更多精彩,敬请期待!</span></div></div>
+<div>快乐大本营的秘密花园</div>
+<div class="til-first-alt-gray">唐艺昕变身女汉子壁咚张若昀</div></a>
+</div>
+<!---->
+<div class="le"><a href="#none" class="fir"><div class="posi2"><img src="images/20170615095759117.jpg_220x125.jpg" class="che3"><img src="images/20170616200714876.jpg_220x125.jpg" class="che3"><img src="images/20170615193241327.jpg_220x125.jpg" class="che3" alt="图片"><div class="zzc2"><span>更多精彩,敬请期待!</span></div></div>
+<div>快乐大本营的秘密花园</div>
+<div class="til-first-alt-gray">唐艺昕变身女汉子壁咚张若昀</div></a>
+</div>
+
+</div>
+<div class="regi">
+<div class="le"><a href="#" class="fir"><div class="posi"><img src="images/20161206152821139-new.jpg_220x310.jpg" alt="图片"><div class="zzc"><span>《从你世界路过》敬请期待!</span></div></div>
+<div>从你的世界路过</div>
+<div class="til-first-alt-gray">邓超杨洋帅气温暖人心</div></a>
+</div>
+<!---->
+<div class="le"><a href="#" class="fir"><div class="posi"><img src="images/20161206152821139-new.jpg_220x310.jpg" alt="图片"><div class="zzc"><span>《从你世界路过》敬请期待!</span></div></div>
+<div>从你的世界路过</div>
+<div class="til-first-alt-gray">邓超杨洋帅气温暖人心</div></a>
+</div>
+<!---->
+<div class="le"><a href="#" class="fir"><div class="posi"><img src="images/20161206152821139-new.jpg_220x310.jpg" alt="图片"><div class="zzc"><span>《从你世界路过》敬请期待!</span></div></div>
+<div>从你的世界路过</div>
+<div class="til-first-alt-gray">邓超杨洋帅气温暖人心</div></a>
+</div>
+<!---->
+<div class="hh"><h3><img src="images/QQ截图20170618092056.png">换一换</h3></div>
+<!---->
+<div class="le"><a href="#" class="fir"><div class="posi2"><img src="images/20170616211258669.jpg" alt="图片"><div class="zzc2"><span>《快乐男声》敬请期待!</span></div></div>
+<div>快乐男声2017</div>
+<div class="til-first-alt-gray">李子峰吉他弹唱获好评</div></a>
+</div>
+<!---->
+<div class="le"><a href="#" class="fir"><div class="posi2"><img src="images/20170616211258669.jpg" alt="图片"><div class="zzc2"><span>《快乐男声》敬请期待!</span></div></div>
+<div>快乐男声2017</div>
+<div class="til-first-alt-gray">李子峰吉他弹唱获好评</div></a>
+</div>
+<!---->
+<div class="le"><a href="#" class="fir"><div class="posi2"><img src="images/20170616211258669.jpg" alt="图片"><div class="zzc2"><span>《快乐男声》敬请期待!</span></div></div>
+<div>快乐男声2017</div>
+<div class="til-first-alt-gray">李子峰吉他弹唱获好评</div></a>
+</div>
+
+</div>
+<div class="regi">
+<div class="le"><a href="#" class="fir"><div class="posi"><img src="images/20161207091356716-new.jpg_220x310.jpg" alt="图片"><div class="zzc"><span>《世界中呼唤爱》敬请期待!</span></div></div>
+<div>世界中心呼唤爱</div>
+<div class="til-first-alt-gray">杨紫欧豪纠结三角虐恋</div></a>
+</div>
+<!---->
+<div class="le"><a href="#" class="fir"><div class="posi"><img src="images/20161207091356716-new.jpg_220x310.jpg" alt="图片"><div class="zzc"><span>《世界中呼唤爱》敬请期待!</span></div></div>
+<div>世界中心呼唤爱</div>
+<div class="til-first-alt-gray">杨紫欧豪纠结三角虐恋</div></a>
+</div>
+<!---->
+<div class="le"><a href="#" class="fir"><div class="posi"><img src="images/20161207091356716-new.jpg_220x310.jpg" alt="图片"><div class="zzc"><span>《世界中呼唤爱》敬请期待!</span></div></div>
+<div>世界中心呼唤爱</div>
+<div class="til-first-alt-gray">杨紫欧豪纠结三角虐恋</div></a>
+</div>
+<!---->
+<div class="hh"><h3><img src="images/QQ截图20170618092056.png">换一换</h3></div>
+<!---->
+<div class="le"><a href="#" class="fir"><div class="posi2"><img src="images/20170614104413070.jpg_220x125.jpg" alt="图片"><div class="zzc2"><span>《夏至未至》敬请期待!</span></div></div>
+<div>夏至未至</div>
+<div class="til-first-alt-gray">陈学冬郑爽甜腻来袭</div></a>
+</div>
+<!---->
+<div class="le"><a href="#" class="fir"><div class="posi2"><img src="images/20170614104413070.jpg_220x125.jpg" alt="图片"><div class="zzc2"><span>《夏至未至》敬请期待!</span></div></div>
+<div>夏至未至</div>
+<div class="til-first-alt-gray">陈学冬郑爽甜腻来袭</div></a>
+</div>
+<!---->
+<div class="le"><a href="#" class="fir"><div class="posi2"><img src="images/20170614104413070.jpg_220x125.jpg" alt="图片"><div class="zzc2"><span>《夏至未至》敬请期待!</span></div></div>
+<div>夏至未至</div>
+<div class="til-first-alt-gray">陈学冬郑爽甜腻来袭</div></a>
+</div>
+
+</div>
+<div class="regi">
+<div class="le"><a href="#" class="fir"><div class="posi"><img src="images/20160926131115083.jpg_220x310.jpg" alt="图片"><div class="zzc"><span>《路边野餐》敬请期待!</span></div></div>
+<div>路边野餐</div>
+<div class="til-first-alt-gray">毕晨演绎他乡流浪故事</div></a>
+</div>
+<!---->
+<div class="le"><a href="#" class="fir"><div class="posi"><img src="images/20160926131115083.jpg_220x310.jpg" alt="图片"><div class="zzc"><span>《路边野餐》敬请期待!</span></div></div>
+<div>路边野餐</div>
+<div class="til-first-alt-gray">毕晨演绎他乡流浪故事</div></a>
+</div>
+<!---->
+<div class="le"><a href="#" class="fir"><div class="posi"><img src="images/20160926131115083.jpg_220x310.jpg" alt="图片"><div class="zzc"><span>《路边野餐》敬请期待!</span></div></div>
+<div>路边野餐</div>
+<div class="til-first-alt-gray">毕晨演绎他乡流浪故事</div></a>
+</div>
+<!---->
+<div class="hh"><h3><img src="images/QQ截图20170618092056.png">换一换</h3></div>
+<!---->
+<div class="le"><a href="#" class="fir"><div class="posi2"><img src="images/20170617193154830.jpg" alt="图片"><div class="zzc2"><span>《快乐男生》敬请期待!</span></div></div>
+<div>快乐男生2017</div>
+<div class="til-first-alt-gray">杨帧冠晋级后谈心得</div></a>
+</div>
+<!---->
+<div class="le"><a href="#" class="fir"><div class="posi2"><img src="images/20170617193154830.jpg" alt="图片"><div class="zzc2"><span>《快乐男生》敬请期待!</span></div></div>
+<div>快乐男生2017</div>
+<div class="til-first-alt-gray">杨帧冠晋级后谈心得</div></a>
+</div>
+<!---->
+<div class="le"><a href="#" class="fir"><div class="posi2"><img src="images/20170617193154830.jpg" alt="图片"><div class="zzc2"><span>《快乐男生》敬请期待!</span></div></div>
+<div>快乐男生2017</div>
+<div class="til-first-alt-gray">杨帧冠晋级后谈心得</div></a>
+</div>
+
+</div>
+<div class="regi">
+<div class="le"><a href="#" class="fir"><div class="posi"><img src="images/20160926133644779.jpg_220x310.jpg" alt="图片"><div class="zzc"><span>《鲨滩》敬请期待!</span></div></div>
+<div>鲨滩</div>
+<div class="til-first-alt-gray">阳光海滩，危机四伏</div></a>
+</div>
+<!---->
+<div class="le"><a href="#" class="fir"><div class="posi"><img src="images/20160926133644779.jpg_220x310.jpg" alt="图片"><div class="zzc"><span>《鲨滩》敬请期待!</span></div></div>
+<div>鲨滩</div>
+<div class="til-first-alt-gray">阳光海滩，危机四伏</div></a>
+</div>
+<!---->
+<div class="le"><a href="#" class="fir"><div class="posi"><img src="images/20160926133644779.jpg_220x310.jpg" alt="图片"><div class="zzc"><span>《鲨滩》敬请期待!</span></div></div>
+<div>鲨滩</div>
+<div class="til-first-alt-gray">阳光海滩，危机四伏</div></a>
+</div>
+<!---->
+<div class="hh"><h3><img src="images/QQ截图20170618092056.png">换一换</h3></div>
+<!---->
+<div class="le"><a href="#" class="fir"><div class="posi2"><img src="images/20170618000041285.jpg_220x125.jpg" alt="图片"><div class="zzc2"><span>《TF-Boy》敬请期待!</span></div></div>
+<div>TF-Boy</div>
+<div class="til-first-alt-gray">TF-Boy畅谈成名往事</div></a>
+</div>
+<!---->
+<div class="le"><a href="#" class="fir"><div class="posi2"><img src="images/20170618000041285.jpg_220x125.jpg" alt="图片"><div class="zzc2"><span>《TF-Boy》敬请期待!</span></div></div>
+<div>TF-Boy</div>
+<div class="til-first-alt-gray">TF-Boy畅谈成名往事</div></a>
+</div>
+<!---->
+<div class="le"><a href="#" class="fir"><div class="posi2"><img src="images/20170618000041285.jpg_220x125.jpg" alt="图片"><div class="zzc2"><span>《TF-Boy》敬请期待!</span></div></div>
+<div>TF-Boy</div>
+<div class="til-first-alt-gray">TF-Boy畅谈成名往事</div></a>
+</div>
+
+</div>
+</div>
+<!--轮播-->
+<div id="music-roll">
+<div id="til-nav">
+<div class="mg-img"><img src="images/QQ截图20170618082925.png" alt="图片标识"></div>
+<p class="til"><a href="http://www.mgtv.com/show/">音乐-Style</a></p>
+</div>
+<div id="music-roll-image">
+<a href="#" id="music-img">
+<img src="images/20170617201806846.jpg_1420x460.jpg" alt="图片">
+<img src="images/110238.jpg" alt="图片">
+<img src="images/5lYQ_-72F18870918067711740.jpg" alt="图片">
+<img src="images/20170614233745646.jpg_1420x460.jpg" alt="图片">
+</a>
+<div id="music-roll-image-ul">
+<ul>
+<li class="current">1</li>
+<li>2</li>
+<li>3</li>
+<li>4</li>
+</ul>
+</div>
+</div>
+</div>
+<!---->
+</div>
+</div>
+<div id="footer">
+<!--登陆注册弹出内容-->
+<div id="basic-dialog-warn">
+<div class="box-title">
+<ul>
+<li class="auto-border"><h2>登录</h2></li>
+<!--<li><h2>注册</h2></li>-->
+</ul>
+</div>
+<div class="box-main">
+
+<div class="tips">
+<form class="tips-content" method="get">
+<p>
+<label for="username">账号：</label>
+<input id="username" type="text" name="username">
+</p>
+<p>
+<label for="username">密码：</label>
+<input id="password" type="password" name="password">
+</p>
+<p class="zt">
+<input type="checkbox" name="checkbox" value="01" checked="checked">记住我
+<a href="#" class="forget">忘记密码？</a>
+</p>
+<p>
+<input type="button" value="登录" id="btn">
+</p>
+</form>
+</div>
+<div class="box-buttons"><button type="button" class="simplemodal-close">关闭</button></div>
+</div>
+
+</div>
+</div>
+</body>
+</html>

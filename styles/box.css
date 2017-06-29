@@ -1,0 +1,99 @@
+@charset "utf-8";
+.simplemodal-container {
+	position: relative;
+	height: 60%;
+ *width:100%;
+	margin: -9px;
+	padding: 9px;
+	font-size: 28px;
+	line-height: 3;
+	background-color: rgba(0,0,0,0.2);
+filter:progid:DXImageTransform.Microsoft.Gradient(startColorstr=#30000000, endColorstr=#30000000);
+    overflow:hidden;
+}
+.box-title {
+	position: relative;
+	display:block;
+	border: 1px solid #369;
+	border-bottom:none;
+	margin: -1px -1px 0;
+	padding: 1px 0;
+	background:#ffffff;
+	height:70px;
+	line-height:70px;
+	background:url(../images/userh2.jpg);
+}
+.box-title li{
+	display:inline-block;
+	margin-left:20px;
+	}
+.box-title li a:hover{
+	color:#ff5f00;
+}
+.box-title .auto-border{
+	color:#ff5f00;
+	/*border-bottom:3px solid #ff5f00;*/
+	}
+/*simplemodal-data*/
+.simplemodal-data {
+	height: 100%;
+	overflow: hidden;
+}
+.box-main{
+	position: relative;
+	background-color: #fff;
+	border: 1px solid #369;
+	margin: 0 -1px -1px;
+	border-top: none;
+	zoom:1;
+	font-size:20px;
+	}
+.tips{
+	padding-top:20px;
+	margin-left:55px;
+	}
+.zt{
+	font-size:14px;
+	}
+.tips [type="checkbox"]{
+	margin-left:65px;
+	}
+.tips .forget{
+	display:inline-block;
+	margin-left:100px;
+	}
+.tips #btn{
+	margin-left:65px;
+	width:220px;
+	height:40px;
+	background:#f06000;
+	color:#fff;
+	font-size:22px;
+	outline:none;
+	}
+/*关闭按钮外的div*/
+.box-buttons {
+	margin-top: 10px;
+	padding: 0 9px 9px 0;
+	text-align: right;
+}
+/*关闭按钮*/
+.box-buttons button {
+	margin-left: 8px;
+	min-width: 68px;
+	min-width: 52px\9;
+*min-width:auto;
+	height: 30px;
+	line-height:30px;
+	padding: 0 5px 1px;
+*padding:0 10px 1px;
+	cursor:pointer;
+	z-index:3200;
+	outline:none;
+	border-radius:2px;
+	background:#fff;
+	border:1px solid #0080ff;
+}
+.box-buttons button:hover{
+	border:2px solid #ff5f00;
+	}

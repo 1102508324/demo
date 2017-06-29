@@ -1,0 +1,15 @@
+@charset "utf-8";
+/* CSS Document */
+*{margin:0;padding:0;}
+#basic-dialog-warn{
+	display:none;
+	}
+/*overlay*/
+#simplemodal-overlay{background:#000;}
+#simplemodal-wrap{background:#fff;}
+/*container*/
+#simplemodal-container{
+	width:500px;
+	heigth:400px;
+	}
+	
